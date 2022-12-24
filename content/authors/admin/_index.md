@@ -6,6 +6,7 @@ title: Amábile Galdino Leandro
 first_name: Amábile
 last_name: Galdino
 
+
 # Status emoji
 status:
   icon: ☕️
@@ -46,7 +47,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/amabilegaldin11@gmail.com'
+    link: '/contact'
   - icon: github
     icon_pack: fab
     link: https://github.com/Amablie
@@ -61,7 +62,7 @@ social:
     link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'amabilegaldin11@gmail.com'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
