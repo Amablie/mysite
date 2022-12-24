@@ -9,7 +9,7 @@ last_name: Galdino
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -29,7 +29,7 @@ bio: My research interests include statistic and data science.
 interests:
   - Business Intelligence
   - Computational Linguistics
-  - Data Science
+  - Data Science 
   - Statistic
   - Data Analytics
 
@@ -69,3 +69,4 @@ highlight_name: true
 ---
 
 Hi! My name is Amábile and I'ma Statistic student and a Data explorer.I like work with Data projects and learn about programming languages.
+
