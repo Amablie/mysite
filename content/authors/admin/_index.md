@@ -25,20 +25,7 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include statistic and data science.
 
-# Interests to show in About widget
-interests:
-  - Business Intelligence
-  - Computational Linguistics
-  - Data Science 
-  - Statistic
-  - Data Analytics
 
-# Education to show in About widget
-education:
-  courses:
-    - course: BSc in Statistic
-      institution: Federal University of Paraná
-      year: 2022
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -69,4 +56,5 @@ highlight_name: true
 ---
 
 Hi! My name is Amábile and I'ma Statistic student and a Data explorer.I like work with Data projects and learn about programming languages.
+
 

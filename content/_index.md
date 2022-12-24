@@ -11,7 +11,7 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
-      text:
+      text: 
   - block: features 
     content:
       title: Skills
@@ -30,8 +30,7 @@ sections:
           icon_pack: fab
         - name: Excel
           description: 
-          icon: excel
-          icon_pack: fab
+
   - block: experience
     content:
       title: Experience
@@ -44,8 +43,8 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Data Analytics (intern)
+          company: Solvay
           company_url: ''
           company_logo: org-gc
           location: California
