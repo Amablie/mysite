@@ -7,30 +7,11 @@ type: landing
 sections:
   - block: about.avatar
     id: about
-    content:
+    content: 
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       text: 
-  - block: features 
-    content:
-      title: Skills
-      items:
-        - name: R
-          description: 
-          icon: r-project
-          icon_pack: fab
-        - name: Statistics
-          description: 
-          icon: chart-line
-          icon_pack: fas
-        - name: Dashboards
-          description: 
-          icon: dashboard
-          icon_pack: fab
-        - name: Excel
-          description: 
-
   - block: experience
     content:
       title: Experience
@@ -45,10 +26,10 @@ sections:
       items:
         - title: Data Analytics (intern)
           company: Solvay
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          company_url: 'https://www.solvay.com/en/'
+          company_logo: 
+          location: Curitiba
+          date_start: '2021-12-15'
           date_end: ''
           description: |2-
               Responsibilities include:
@@ -56,16 +37,38 @@ sections:
               * Analysing
               * Modelling
               * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              
+        - title: Business Intelligence
+          company: Mirum Agency
+          company_url: 'https://www.mirumagency.com.br/'
+          company_logo: 
+          location: Curitiba
+          date_start: '2020-02-17'
+          date_end: '2021-12-08'
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
+              
+        - title: Credit Modeling (intern)
+          company: Bradesco
+          company_url: 'https://banco.bradesco/html/classic/index.shtm'
+          company_logo: 
+          location: Curitiba
+          date_start: '2019-07-17'
+          date_end: '2019-11-08'
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
     design:
       columns: '2'
+      
+      
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.

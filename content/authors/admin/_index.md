@@ -26,6 +26,20 @@ organizations:
 bio: My research interests include statistic and data science.
 
 
+education:
+  courses:
+  - course: BSc in Statistic
+    institution: Federal University of Paraná
+    year: 2018 - 2023
+
+
+interests:
+- Data Science
+- Computational Linguistics
+- Data Analytics
+- Statistic
+
+  
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -54,7 +68,5 @@ email: 'amabilegaldin11@gmail.com'
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-
 Hi! My name is Amábile and I'ma Statistic student and a Data explorer.I like work with Data projects and learn about programming languages.
-
 
