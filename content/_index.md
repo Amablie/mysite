@@ -11,20 +11,28 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
-      text: 
+      text:
+      design:
+      columns: '2'
+  - block: experience
+    content:
+      title: Education
+      items:
+        - title: Bsc in Statistic & Probability
+          company: Federal University of Paraná
+          company_url: 'https://www.ufpr.br/portalufpr/'
+          company_logo:
+          location: Curitiba
+          date_start: '2018-02-15'
+          date_end: ''
+    design:
+      columns: '2'
+      
   - block: experience
     content:
       title: Experience
-      # Date format for experience
-      #   Refer to https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Data Analytics (intern)
+        - title: Data Analytics
           company: Solvay
           company_url: 'https://www.solvay.com/en/'
           company_logo: 
@@ -34,9 +42,10 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
+              - Process automation and data extraction, assisting in the elaboration of analyzes and decision-making in the financial sector;
+              - Support in the maintenance of reports and dashboards (Qliksense and Data Studio), being a technical point of contact and helping global teams in their daily activities;
+              - Database extraction obtained through extensive databases, for manipulation and treatment in order to assist in decision making;
+              - Search for new data-driven solutions and improvements for the Credit team.
               
         - title: Business Intelligence
           company: Mirum Agency
@@ -48,9 +57,10 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
+              - Market research and information gathering using tools such as Google Analytics, Facebook Analytics, and other digital marketing tools
+              - Development of dashboards using DataStudio, helping in the automation of processes and facilitating metric analysis
+              - Database update and manipulation using Excel, Google Sheets, and BigQuery queries
+              - Preparation of reports and presentations using PowerPoint and DataStudio.
               
         - title: Credit Modeling (intern)
           company: Bradesco
@@ -62,25 +72,19 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
+              - Manipulation and approval of databases using SAS and Excel
+              - Organization of spreadsheets and documents
+              - Assistance in preparing presentations
     design:
       columns: '2'
       
       
   - block: accomplishments
     content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Accomplish&shy;ments'
       subtitle:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - certificate_url: https://www.coursera.org
           date_end: ''
@@ -162,14 +166,18 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
+      
+      
+  # - block: markdown
+  #   content:
+  #     title: Gallery
+  #     subtitle: ''
+  #     text: |-
+  #       {{< gallery album="demo" >}}
+  #   design:
+  #     columns: '1'
+  
+  
   - block: collection
     id: featured
     content:
@@ -216,44 +224,23 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+       Para entrar emcontato comigo, por favor mande-me um email pelo caminho abaixo:
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      email: amabilegaldin11@gmail.com
+      phone: (41) 991752952
+      appointment_url: 'https://www.linkedin.com/in/amabile-galdino/'
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+        city: Curitiba
+        region: PR
+        country: Brazil
+        country_code: BR
       contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
-      # Automatically link email and phone or display as text?
       autolink: true
-      # Email form provider
       form:
         provider: netlify
         formspree:
           id:
         netlify:
-          # Enable CAPTCHA challenge to reduce spam?
           captcha: false
     design:
       columns: '2'

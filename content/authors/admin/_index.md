@@ -54,7 +54,7 @@ social:
     link: https://github.com/Amablie
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: www.linkedin.com/in/amabile-galdino
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -68,5 +68,15 @@ email: 'amabilegaldin11@gmail.com'
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-Hi! My name is Amábile and I'ma Statistic student and a Data explorer.I like work with Data projects and learn about programming languages.
+
+I am a Statistician student at the Federal University of Paraná, actively participating as a scholarship holder,in a nacional program developing teaching, research, and extension activities since the second year of graduation. In my free time I'm looking to get to know the day-to-day of a data professional in the job market.
+Currently I'm working as a data intern in the credit area of one of the largest chemical companies in Belgium, helping a global team with process automation, analysis, and collecting information for business decisions.
+
+
+**Interests:**
+Statistic;
+Data Science;
+Data Analytics;
+Computational Language;
+
 
