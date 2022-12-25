@@ -112,6 +112,8 @@ sections:
           url: ''
     design:
       columns: '2'
+      
+      
   - block: collection
     id: posts
     content:
