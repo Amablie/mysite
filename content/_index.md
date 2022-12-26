@@ -86,37 +86,29 @@ sections:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: https://www.datacamp.com
           date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2022-12-25'
           description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          organization:  DataCamp
+          organization_url: https://www.datacamp.com
+          title: Manipulating Time Series Data in R
           url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
         - certificate_url: https://www.datacamp.com
           date_end: '2020-12-21'
           date_start: '2020-07-01'
           description: ''
           organization: DataCamp
           organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          title: 'Understanding Data Science'
           url: ''
-        - certificate_url: https://www.udemy.com
+        - certificate_url: https://www.datacamp.com
           date_end: '2020-12-21'
           date_start: '2020-07-01'
           description: ''
-          organization: Coursera
-          organization_url: https://www.udemy.com
-          title: 'Programming in R'
+          organization: DataCamp
+          organization_url: https://www.datacamp.com
+          title: 'Intermediate SQL Queries'
           url: ''
     design:
       columns: '2'
@@ -188,31 +180,31 @@ sections:
   #     columns: '1'
   
   
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
+  # - block: collection
+  #   id: featured
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     columns: '2'
+  #     view: card
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: |-
+  #       {{% callout note %}}
+  #       Quickly discover relevant content by [filtering publications](./publication/).
+  #       {{% /callout %}}
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: true
+  #   design:
+  #     columns: '2'
+  #     view: citation
   - block: collection
     id: talks
     content:
