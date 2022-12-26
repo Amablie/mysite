@@ -12,8 +12,8 @@ sections:
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       text:
-      design:
-      columns: '2'
+    design:
+     columns: '2'
   - block: experience
     content:
       title: Education
@@ -110,9 +110,17 @@ sections:
           organization_url: https://www.datacamp.com
           title: 'Object-Oriented Programming in R'
           url: ''
+        - certificate_url: https://www.udemy.com
+          date_end: '2020-12-21'
+          date_start: '2020-07-01'
+          description: ''
+          organization: Coursera
+          organization_url: https://www.udemy.com
+          title: 'Programming in R'
+          url: ''
     design:
       columns: '2'
-      
+
       
   - block: collection
     id: posts
@@ -215,11 +223,11 @@ sections:
     design:
       columns: '2'
       view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
+  # - block: tag_cloud
+  #   content:
+  #     title: Popular Topics
+  #   design:
+  #     columns: '2'
   - block: contact
     id: contact
     content:
