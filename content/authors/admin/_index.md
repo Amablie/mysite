@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Amábile Galdino Leandro
+title: Amábile Galdino 
 
 # Full name (for SEO)
 first_name: Amábile

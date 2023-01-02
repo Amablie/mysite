@@ -226,7 +226,7 @@ sections:
       title: Contact
       subtitle:
       text: |-
-       Para entrar emcontato comigo, por favor mande-me um email pelo caminho abaixo:
+       Para entrar em contato comigo, por favor mande-me um email pelo caminho abaixo:
       # Contact (add or remove contact options as necessary)
       email: amabilegaldin11@gmail.com
       phone: (41) 991752952
@@ -236,7 +236,7 @@ sections:
         region: PR
         country: Brazil
         country_code: BR
-      contact_links:
+      contact_links: 
       autolink: true
       form:
         provider: netlify
