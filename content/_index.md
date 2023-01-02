@@ -12,8 +12,9 @@ sections:
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       text:
-    design:
-     columns: '2'
+      design:
+        columns: '2'
+
   - block: experience
     content:
       title: Education
@@ -77,7 +78,7 @@ sections:
               - Assistance in preparing presentations
     design:
       columns: '2'
-      
+    
       
   - block: accomplishments
     content:
