@@ -55,6 +55,10 @@ sections:
           location: Curitiba
           date_start: '2018-02-15'
           date_end: ''
+          description: |2-
+              Responsibilities include:
+              
+              Monitoring and organization of activities, developing teaching, research, and extension projects as a Scholarship holder at PET - Statistic.
     design:
       columns: '2'
       
