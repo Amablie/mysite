@@ -18,32 +18,32 @@ sections:
   #   content:
   #     title: Skills
   #     items:
-  #      - description: 
+  #      - description:
   #        icon: r-project
   #        icon_pack: fab
   #        name: R
-  #      - description: 
+  #      - description:
   #        icon: chart-line
   #        icon_pack: fas
   #        name: Statistics
-  #      - description: 
+  #      - description:
   #        icon: database
   #        icon_pack: fas
   #        name: SQL
-  #      - description: 
+  #      - description:
   #        icon: chart-pie
   #        icon_pack: fas
   #        name: Data Visualization
-  #      - description: 
+  #      - description:
   #        icon: file-excel
   #        icon_pack: fas
   #        name: Excel
-  #      - description: 
+  #      - description:
   #        icon: gauge
   #        icon_pack: fas
   #        name: Dashboards
   # 
-  #        
+
   - block: experience
     content:
       title: Education
